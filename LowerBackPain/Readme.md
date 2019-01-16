@@ -1,1 +1,3 @@
+## Predicting lower back pain
+
 An analysis of a Kaggle data set on 13 spine features - to help classify whether the outcome is normal (no pain) or Abnormal (back Pain). The exploratory analysis understands the correlation between the features and their data distribution. A logistic regression model is built on top of these features to make the classification. Model unconvergence was narrowed down to highly correlated variables - in fact, one variable was the exact linear combination (sum) of two other independent variables. The model's specificity and sensitivity are also determined with the help of a confusion matrix.
